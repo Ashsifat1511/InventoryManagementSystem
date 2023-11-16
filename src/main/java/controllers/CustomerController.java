@@ -443,12 +443,6 @@ public class CustomerController implements Initializable {
         return searchResult;
     }
 
-    /**
-     * This method search into the customer databse with a string and
-     * returns any records that has a match with the search string
-     * @param name: Name of the customer
-     * @return: List of the result
-     */
 
     private ObservableList<Customer> searchWithName(String name) {
         Connection con = DBConnection.getConnection();

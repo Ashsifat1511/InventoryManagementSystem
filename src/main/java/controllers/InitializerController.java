@@ -61,7 +61,7 @@ public class InitializerController implements Initializable {
             Scene scene = new Scene(root);
             String css = this.getClass().getResource("/main/resources/css/base.css").toExternalForm();
             scene.getStylesheets().add(css);
-            base.setTitle("Inventory System");
+            base.setTitle("Inventory Management System");
             base.getIcons().add(new Image("/main/resources/icons/Logo.png"));
             base.setScene(scene);
             base.setMaximized(true);

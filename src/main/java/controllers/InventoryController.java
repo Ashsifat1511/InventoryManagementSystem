@@ -91,12 +91,7 @@ public class InventoryController implements Initializable{
     private static int recordIndex = 0;
     private static int recordSize = 0;
     private Item onView = null;
-    /**
-     * addFlag will differentiate b/w Adding a new entry
-     * and updating an existing entry.
-     * True: New Record Entry Mode
-     * False: Updating an Existing Entry
-     */
+
     private static boolean addFlag = false;
     private static boolean searchDone = false;
     private static String imgPath = null;
